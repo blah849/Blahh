@@ -47,7 +47,7 @@ public class ElevatorLobby extends Room {
         itemsInRoom.add(new Ammunition());
         availableCommands.remove("open trash bin");
         updateDescription();
-        return "You open the trash been and see the ammo clip inside";
+        return "You open the trash bin and see the ammo clip inside";
     }
 
     private String takeTheAmmoClip(Player player) {
