@@ -47,7 +47,7 @@ public class SecurityOffice extends Room {
         availableCommands.add("take the gun");
         itemsInRoom.add(new Gun());
         updateDescription();
-        return "You found a gun in the desk, may be you should take it.";
+        return "You found a gun in the desk, maybe you should take it.";
     }
 
     public String useComputer() {
