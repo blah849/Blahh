@@ -43,7 +43,8 @@ public class AdventureUtil {
     public static final String WIN_MESSAGE = "Congratulations, you have successfully arrested the criminal, you really are a great detective.\n" +
             "Thank you for saving the city, please play again.";
     public static final String LOSE_MESSAGE = "Good job on getting this far, but you didn’t get the right guy! Please turn in your badge, or try again.";
-
+    
+    public static final String GUN_MESSAGE = "Here's the thing, you got the right guy, so congratulations, however, now you have a load of paperwork to do! Please play again.";
     // supporting methods related to the player movements
 
     public static String goNorth(Player player) {
