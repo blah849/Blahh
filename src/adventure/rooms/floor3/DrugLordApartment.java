@@ -49,11 +49,24 @@ public class DrugLordApartment extends Room {
     private String arrestManOnTheRight() {
         return AdventureUtil.WIN_MESSAGE;
     }
+    
+      private String shootManOnTheRight() {
+        return AdventureUtil.GUN_MESSAGE;
+    }
+      private String shootManOnTheMiddle() {
+        return AdventureUtil.LOSE_MESSAGE;
+    }
+      private String shootManOnTheLeft() {
+        return AdventureUtil.LOSE_MESSAGE;
+    }
 
     private void initCommands() {
         availableCommands.add("arrest man on the left");
         availableCommands.add("arrest man on the middle");
         availableCommands.add("arrest man on the right");
+        availableCommands.add("shoot man on the left");
+        availableCommands.add("shoot man on the middle");
+        availableCommands.add("shoot man on the right");
         availableCommands.add("leave room");
     }
 
