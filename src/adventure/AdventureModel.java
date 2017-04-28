@@ -42,7 +42,7 @@ public class AdventureModel {
             String currentMessage = player.getLocation().doAction(command, player);
             System.out.println(currentMessage);
 
-            if (currentMessage.equals(AdventureUtil.WIN_MESSAGE) || currentMessage.equals(AdventureUtil.LOSE_MESSAGE)) {
+            if (currentMessage.equals(AdventureUtil.WIN_MESSAGE) || currentMessage.equals(AdventureUtil.LOSE_MESSAGE || currentMessage.equals(AdventureUtil.GUN_MESSAGE)) {
                 AdventureUtil.finishGame();
             }
         }
