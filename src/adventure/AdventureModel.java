@@ -25,8 +25,8 @@ public class AdventureModel {
 
     public void playGame() {
         String command;
-        System.out.println("Welcome to the Gotham adventure game!" +
-                "\nTip: investigate the current location using \"look\" command.\n");
+        System.out.println("Welcome to Gotham's Dark Agent!" +
+                "\nTip: Investigate the current location using \"look\" command.\n");
 
         while (true) {
             command = getCommand();
@@ -101,7 +101,7 @@ public class AdventureModel {
         Room drugLordApartment = new DrugLordApartment();
         rooms.add(drugLordApartment);
 
-        // create rooms connections for the 1st floor
+        // create room connections for the 1st floor
         loungeArea.setNorth(lobby);
 
         lobby.setSouth(loungeArea);
@@ -116,7 +116,7 @@ public class AdventureModel {
         elevatorLobby.setSouth(lobby);
         elevatorLobby.setNorth(elevator);
 
-        // create rooms connections for the 2nd floor
+        // create room connections for the 2nd floor
         elevator.setNorth(elevatorLobby);
         elevator.setWest(floor2Lobby);
         elevator.setEast(floor3Lobby);
