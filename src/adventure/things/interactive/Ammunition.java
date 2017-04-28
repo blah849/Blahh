@@ -6,6 +6,6 @@ public class Ammunition extends Thing {
     public Ammunition() {
         shortName = "Ammunition";
         fullName = "Ammunition";
-        description = "It is a common pistol ammunition";
+        description = "It's typical pistol ammo.";
     }
 }
