@@ -6,6 +6,6 @@ public class Key extends Thing {
     public Key() {
         shortName = "Key";
         fullName = "Key";
-        description = "This key should be needed to open one of the apartments.";
+        description = "This key might come in handy later.";
     }
 }
