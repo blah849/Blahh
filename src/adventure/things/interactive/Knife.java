@@ -6,6 +6,6 @@ public class Knife extends Thing {
     public Knife() {
         shortName = "Knife";
         fullName = "Knife";
-        description = "It is a common knife, it looks sharp";
+        description = "It's a common knife, it looks sharp";
     }
 }
