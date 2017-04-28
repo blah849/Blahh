@@ -7,7 +7,7 @@ import adventure.rooms.Room;
 public class DrugLordApartment extends Room {
     public DrugLordApartment() {
         super();
-        name = "Drag lord apartment";
+        name = "Drug lord apartment";
 
         initCommands();
         updateDescription();
