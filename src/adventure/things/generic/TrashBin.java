@@ -6,6 +6,6 @@ public class TrashBin extends Thing {
     public TrashBin() {
         shortName = "Trash bin";
         fullName = "Trash bin";
-        description = "This is a common trash bin. May be it contains something useful.";
+        description = "This is a common trash bin. Maybe it contains something useful.";
     }
 }
