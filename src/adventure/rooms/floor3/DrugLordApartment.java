@@ -39,11 +39,11 @@ public class DrugLordApartment extends Room {
     }
 
     private String arrestManOnTheLeft() {
-        return AdventureUtil.LOOSE_MESSAGE;
+        return AdventureUtil.LOSE_MESSAGE;
     }
 
     private String arrestManOnTheMiddle() {
-        return AdventureUtil.LOOSE_MESSAGE;
+        return AdventureUtil.LOSE_MESSAGE;
     }
 
     private String arrestManOnTheRight() {
