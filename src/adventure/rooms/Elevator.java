@@ -52,14 +52,14 @@ public class Elevator extends Room {
 
     private void checkPower(Player player) {
         if (player.powerIsTurnedOn()) {
-            description = "The elevator is operational which floor would you like to go to, there are 3 floors?";
+            description = "The elevator is operational; which floor would you like to go to? There are 3 floors";
             availableCommands.add("floor1");
             availableCommands.add("floor2");
             availableCommands.add("floor3");
             completeDescription();
         }
         else {
-            description = "The elevator seems fine but there is no power running to it right now.";
+            description = "The elevator seems fine, but there is no power running to it right now.";
         }
     }
 }
